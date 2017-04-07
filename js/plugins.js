@@ -109,7 +109,7 @@ $(document).ready(function() {
     // Form Validation in contact section //
     $("#contact-form").validator().on("submit", function (e) {
             if(e.isDefaultPrevented()) {
-                $(".form-response").text("Sorry, you didn't fill the form.").fadeIn(1000);
+                $(".form-response").text("Desculpe, você não preencheu o formulário corretamente.").fadeIn(1000);
             } else {
                 e.preventDefault();
                 submitForm();
@@ -122,24 +122,61 @@ $(document).ready(function() {
                 mail = $("#mail").val(),
                 message = $("#message").val();
             // Ajax    
-            $.ajax({
+            // $.ajax({
+                // type: "POST",
+                // url: "http://formspree.io/diegobertelli.ti@gmail.com",
+                // data: {
+
+                    // name: name,
+
+                    // phone: "",
+
+                    // email: mail,
+
+                    // message: message
+
+                // },
+				// dataType: "json",
+                // beforeSend: function(text) {
+                    // $(".submit-btn").html("Sending...");
+                    // $(".form-response").fadeOut(500).text("");
+                // },
+                // success: function (text) {
+                    // if(text == "success") {
+                        // $("#contact-form")[0].reset();
+                        // $(".form-response").text("Obrigado! Sua mensagem foi enviada.").fadeIn(1000);
+                        // $(".submit-btn").html("Enviar mensagem");
+                    // } else {
+                        // $(".form-response").text(text).fadeIn(1000);
+                    // }
+                // }
+            // });
+			
+			 $.ajax({
+                url: "//formspree.io/diegobertelli.ti@gmail.com",
                 type: "POST",
-                url: "php/contact.php",
-                data: "name=" + name + "&mail=" + mail + "&message=" + message,
-                beforeSend: function(text) {
-                    $(".submit-btn").html("Sending...");
-                    $(".form-response").fadeOut(500).text("");
+                data: {
+
+                    name: name,
+
+                    email: mail,
+
+                    message: message
+
                 },
-                success: function (text) {
-                    if(text == "success") {
-                        $("#contact-form")[0].reset();
-                        $(".form-response").text("Thanks! Your message sent correctly.").fadeIn(1000);
-                        $(".submit-btn").html("Send Message");
-                    } else {
-                        $(".form-response").text(text).fadeIn(1000);
-                    }
-                }
+                dataType: "json",
+                success: function() {
+
+
+                },
+
+                error: function(request, status, error) {
+					alert(request.responseText);
+				}
+
             });
+		
+			
         }
     // Moving placeholder on focus in contact-me section //
     $(".contact .form-control").focusout(function() {
@@ -157,7 +194,7 @@ $(document).ready(function() {
             number: 6853
         }, 2200);
         $("#number_2").animateNumber({
-            number: 120
+            number: 11
         }, 2200);
         $("#number_3").animateNumber({
             number: 345
