@@ -165,11 +165,15 @@ $(document).ready(function() {
 
                 },
                 dataType: "json",
+				beforeSend: function(text) {
+					$(".submit-btn").html("Sending...");
+					$(".form-response").fadeOut(500).text("");
+				},					
                 success: function() {
-
-
-                },
-
+					$("#contact-form")[0].reset();
+                    $(".form-response").text("Obrigado! Sua mensagem foi enviada.").fadeIn(1000);
+					$(".submit-btn").html("Enviar mensagem");
+				},
                 error: function(request, status, error) {
 					alert(request.responseText);
 				}
