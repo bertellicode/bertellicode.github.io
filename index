@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Diego Bertelli Portfólio</title>
+
+		<meta name="description" content="tottaly responsive personal portfolio template" />
+		<meta name="keywords" content="responsive, template, portfolio, html, css, javascript" />
+		<meta name="author" content="Diego Bertelli" />
+
+		<!-- Open Sans Google font -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+		<!-- Raleway Google font -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:700">
+		<!-- Favicons -->
+		<link rel="shortcut icon" href="img/favico/marqa.ico">
+		<link rel="apple-touch-icon" sizes="60x60" href="img/favico/apple-icon-60x60.png">
+		<!-- Ionicon fonts css file -->
+		<link rel="stylesheet" href="css/ionicons.min.css">
+		<!-- magnific popup css file -->
+		<link rel="stylesheet" href="css/magnific-popup.css">
+		<!-- Animate.css file -->
+		<link rel="stylesheet" href="css/animate.css">
+		<!-- Owl carousel css file -->
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<!-- Bootstrap file -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- Custom styles css file -->
+		<link rel="stylesheet" href="css/style.css">
+
+		<!--[if lt IE 9]>
+		    <script src="js/html5shiv.js"></script>
+			<script src="js/respond.js"></script>
+		<![endif]-->
+
+	</head>
+	<body>	
+		<!-- Start Loading page -->
+		<div class="loading">
+			<div class="loading-wrapper">
+				<div class="rec r1"></div>
+				<div class="rec r2"></div>
+				<div class="rec r3"></div>
+				<div class="rec r4"></div>
+				<div class="rec r5"></div>
+			</div>
+		</div>
+		<!-- End Loading page -->	
+
+		<!-- Start Header Section -->
+		<div class="header" id="header">
+			<div id="large-header" class="large-header">
+				<canvas id="demo-canvas"></canvas>
+				<div class="content center">
+					<div class="container">
+						<!-- <p>Hello, It's me</p> -->
+						<h1>Diego Bertelli</h1>
+						<p>Asp.Net Developer - Web Designer</p>
+						<a href="#about-me">Mais Detalhes</a>
+						<a href="#portfolio">Download Currículo</a>
+					</div> <!-- End container -->
+				</div>
+				<div class="mouse" id="mouse"></div>  <!-- Mouse Icon -->
+			</div>
+		</div>
+		<!-- End Header Section -->
+
+		<!-- Start Side Menu -->
+		<nav id="top-nav">
+			<div class="logo center">
+				<a href="#header">Home</a>
+				<a href="#about-me">Sobre mim</a>
+				<a href="#services">Serviços</a>
+				<a href="#skills">Habilidades</a>
+				<a href="#experiences">Experiências</a>
+				<a href="#portfolio">Portfolio</a>
+				<a href="#testmonials">Testemunhos</a>
+				<a href="#contact-me">Contato</a>
+			</div> <!-- LOGO -->
+			<div class="menu" id="menu">
+				<span class="bar b1"></span>
+				<span class="bar b2"></span>
+				<span class="bar b3"></span>
+			</div>
+			<div class="side-menu" id="side-menu"> <!-- Menu items -->
+				<a href="#header">Home</a>
+				<a href="#about-me">Sobre mim</a>
+				<a href="#services">Serviços</a>
+				<a href="#skills">Habilidades</a>
+				<a href="#experiences">Experiências</a>
+				<a href="#portfolio">Portfolio</a>
+				<a href="#testmonials">Testemunhos</a>
+				<a href="#contact-me">Contato</a>
+			</div>
+		</nav>
+		<!-- End Side Menu -->
+
+		<!-- Start About Me Section -->
+		<div class="about-me clearfix" id="about-me">
+			<div class="container">
+				<div class="row">
+					<!-- Profile Pic -->
+					<div class="my-pic center col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-offset="200">
+						<img src="img/my-face.png" alt="my profile">
+					</div>
+					<div class="introduction col-sm-8 col-xs-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-offset="200">
+						<h2 class="h2">Diego Bertelli</h2>
+						<div class="heading-line"></div>
+						<p class="introduce">Asp.Net Developer / Web Designer</p>
+						<p class="intro" align="justify">
+						Analista de Sistemas com mais de 4 anos de experiência de mercado. 
+						Atuação em projetos desenvolvidos para grandes instituições e empresas como SEBRAE, SENAC, IEMA, FIOTEC, Schneider Electric, Minerva Foods e MRS.
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="profile col-sm-4 col-xs-12 wow fadeInUp text-center" data-wow-duration="0.5s" data-wow-offset="200">
+						<h3>Informações Pessoais</h3>
+						<div class="heading-line"></div>
+						<div class="personal-wrapper">
+							<span><strong>Nome: </strong>Diego Bertelli</span>
+							<span><strong>E-mail: </strong>diegobertelli.ti@gmail.com</span>
+							<span><strong>Celular: </strong>(55) 32 99144-7717</span>
+							<!-- <span><strong>website: </strong>www.johndoe.com</span> -->
+						</div>
+					</div>
+					<div class="why-me col-sm-8 col-xs-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-offset="200">
+						<!-- Start Accordion -->
+						<div class="accordion">
+							<div class="acc-item">
+								<div class="acc-title"><i class="ion-android-navigate"></i> Quem sou eu?</div>
+								<div class="acc-content" align="justify">
+									Sou uma pessoa que busca evoluir todos os dias moral e profissionalmente. 
+									Entusiasta da tecnologia e da transformação constante que ela faz na sociedade.
+								</div>
+							</div>
+							<div class="acc-item">
+								<div class="acc-title"><i class="ion-android-navigate"></i> Formação Academica</div>
+								<div class="acc-content" align="justify">
+									Sou formado em Analise de Sistemas e em Comunicação Social.
+									Essas duas disciplinas complementares ajudaram a me tornar um profissional mais completo e dinâmico.
+								</div>
+							</div>
+							<div class="acc-item">
+								<div class="acc-title"><i class="ion-android-navigate"></i>No que realmente sou bom?</div>
+								<div class="acc-content" align="justify">						
+									Maior parte das experiências na plataforma .NET (ASP.NET MVC e ASP.NET Web API) e utilizando metodologia ágil para gestão e planejamento dos projetos. 
+									Amplo conhecimento em Web Designer, procuro sempre agregar as tecnicas voltadas a arquitetura da informação, ergonomia, usabilidade e acessibilidade nos projetos que atuo. 
+									Vasta experiência com a plataforma de colaboração e gerenciamento do ciclo de vida de aplicativos TFS.									
+								</div>
+							</div>
+						</div> <!-- End Accordion -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End About Me Section -->
+
+		<!-- Start Fun Facts Section -->
+		<div class="fun-facts center" id="facts">
+			<div class="pattern"></div>
+			<div class="container">
+				<div class="row">
+					<!-- Fact No. 1 -->
+					<div class="col-md-3 col-sm-6">
+						<div class="fact">
+							<i class="ion-code-working"></i>
+							<p id="number_1">0</p>
+							<span>Linhas de Código</span>
+						</div>
+					</div>
+					<!-- Fact No. 2 -->
+					<div class="col-md-3 col-sm-6">
+						<div class="fact">
+							<i class="ion-fork-repo"></i>
+							<p id="number_2">0</p>
+							<span>Projetos Concluidos</span>
+						</div>
+					</div>
+					<!-- Fact No. 3 -->
+					<div class="col-md-3 col-sm-6">
+						<div class="fact">
+							<i class="ion-coffee"></i>
+							<p id="number_3">0</p>
+							<span>Xícaras de Café</span>
+						</div>
+					</div>
+					<!-- Fact No. 4 -->
+					<div class="col-md-3 col-sm-6">
+						<div class="fact">
+							<i class="ion-happy"></i>
+							<p id="number_4">0</p>
+							<span>Usuários Satisfeitos</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Fun Facts Section -->
+
+		<!-- Start Services Section -->
+		<div class="services center" id="services">
+			<div class="container">
+				<!-- Title -->
+				<div class="title">
+					<h2 class="h2">Serviços que ofereço</h2>
+					<div class="heading-line"></div>
+					<p class="main-para">Abaixo segue algumas de minhas competências profissionais.</p>
+				</div>	
+				<div class="row">
+					<!-- Service No. 1 -->
+					<div class="col-md-3 col-sm-6">
+						<div class="service">
+							<i class="ion-social-css3-outline"></i>
+							<h3>Web Design</h3>
+							<p>Criação de web sites personalizados utilizando tecnicas voltadas a arquitetura da informação, ergonomia, usabilidade e acessibilidade. Sites leves, dinamicos e responsivos.</p>
+						</div>
+					</div>
+					<!-- Service No. 2 -->
+					<div class="col-md-3 col-sm-6">
+						<div class="service">
+							<i class="ion-code"></i>
+							<h3>Aplicações</h3>
+							<p>Desenvolvimento de aplicações para web usando as melhores práticas e padrões do mercado.</p>
+						</div>
+					</div>
+					<!-- Service No. 3 -->
+					<div class="col-md-3 col-sm-6">
+						<div class="service">
+							<i class="ion-arrow-graph-up-right"></i>
+							<h3>Consultoria</h3>
+							<p>Consultoria para modernização de aplicações, migração de projetos para web e desenvolvimento para arquitetura de software.</p>
+						</div>
+					</div>
+					<!-- Service No. 4 -->
+					<div class="col-md-3 col-sm-6">
+						<div class="service">
+							<i class="ion-clipboard"></i>
+							<h3>Gestão de Projetos</h3>
+							<p>Gestão de projetos adotando a metodologia ágil Scrum e consultoria na implentação do controle de ciclo de vida das aplicações usando TFS.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Services Section -->
+
+		<!-- Start Technical Skills Section -->
+		<div class="technical-skills center" id="skills">
+			<div class="pattern"></div>
+			<div class="container">
+				<!-- Title -->
+				<div class="title">
+					<h2 class="h2">Habilidades Tecnicas</h2>
+					<div class="heading-line"></div>
+					<!--<p class="title">Authoritatively foster bricks-and-clicks networks rather than superior architectures. Compellingly mesh frictionless imperatives vis-a-vis emerging.</p>-->
+				</div>	
+				<!-- Start main skills -->
+				<div class="skills-wrapper row">
+					<!-- main skill No. 1 -->
+					<div class="skill col-md-3 col-sm-6">
+						<div class="chart center" data-percent="90">
+							<span><span id="chart_num_1">0</span> %</span>
+						</div>
+						<h2>ASP.NET MVC</h2>
+					</div>
+					<!-- main skill No. 2 -->					
+					<div class="skill col-md-3 col-sm-6">
+						<div class="chart center" data-percent="90">
+							<span><span id="chart_num_2">0</span> %</span>
+						</div>
+						<h2>ASP.NET WEB API</h2>
+					</div>
+					<!-- main skill No. 3 -->
+					<div class="skill col-md-3 col-sm-6">
+						<div class="chart center" data-percent="80">
+							<span><span id="chart_num_3">0</span> %</span>
+						</div>
+						<h2>AngularJS</h2>
+					</div>
+					<!-- main skill No. 4 -->
+					<div class="skill col-md-3 col-sm-6">
+						<div class="chart center" data-percent="85">
+							<span><span id="chart_num_4">0</span> %</span>
+						</div>
+						<h2>Scrum</h2>
+					</div>
+				</div> <!-- End main skills -->
+				<div class="other-skills">
+					<h2 class="h2">other skills</h2>
+					<div class="heading-line"></div>
+					<!--<p class="title">Distinctively implement granular e-commerce whereas business innovation. Rapidiously unleash viral niches vis-a-vis real-time catalysts.</p>-->
+					<!-- Start other skills -->
+					<div class="skills-wrapper row">
+						<!-- Skill No. 1 -->
+						<div class='bar_group col-md-6 col-xs-12' data-max="100">
+							<div class=" bar_group__bar thick elastic" data-value="85" data-tooltip="true" data-label="Entity Framework" data-show-values="true" data-unit="%"></div>
+						</div>
+						<!-- Skill No. 2 -->
+						<div class='bar_group col-md-6 col-xs-12' data-max="100">
+							<div class=" bar_group__bar thick elastic" data-value="75" data-tooltip="true" data-label="PL/SQL" data-show-values="true" data-unit="%"></div>
+						</div>
+						<!-- Skill No. 3 -->
+						<div class='bar_group col-md-6 col-xs-12' data-max="100">
+							<div class=" bar_group__bar thick elastic" data-value="70" data-tooltip="true" data-label="CSS" data-show-values="true" data-unit="%"></div>
+						</div>
+						<!-- Skill No. 4 -->
+						<div class='bar_group col-md-6 col-xs-12' data-max="100">
+							<div class=" bar_group__bar thick elastic" data-value="85" data-tooltip="true" data-label="TypeScript" data-show-values="true" data-unit="%"></div>
+						</div>
+						<!-- Skill No. 5 -->
+						<div class='bar_group col-md-6 col-xs-12' data-max="100">
+							<div class=" bar_group__bar thick elastic" data-value="85" data-tooltip="true" data-label="ASP.NET Identity" data-show-values="true" data-unit="%"></div>
+						</div>
+						<!-- Skill No. 6 -->
+						<div class='bar_group col-md-6 col-xs-12' data-max="100">
+							<div class=" bar_group__bar thick elastic" data-value="80" data-tooltip="true" data-label="ASP.NET SignalR" data-show-values="true" data-unit="%"></div>
+						</div>
+						<!-- Skill No. 7 -->
+						<div class='bar_group col-md-6 col-xs-12' data-max="100">
+							<div class=" bar_group__bar thick elastic" data-value="75" data-tooltip="true" data-label="TFS - Team Foundation Server" data-show-values="true" data-unit="%"></div>
+						</div>
+						<!-- Skill No. 8 -->
+						<div class='bar_group col-md-6 col-xs-12' data-max="100">
+							<div class=" bar_group__bar thick elastic" data-value="90" data-tooltip="true" data-label="DDD - Domain Driven Design" data-show-values="true" data-unit="%"></div>
+						</div>
+					</div>	<!-- End other skills -->
+				</div>	
+			</div>
+		</div>
+		<!-- End Technical Skills Section -->
+
+		<!-- Start Experience Section -->
+		<div class="experiences center" id="experiences">
+			<div class="container">
+				<!-- Title -->
+				<div class="title wow fadeIn" data-wow-duration="0.5s" data-wow-offset="200">
+					<h2 class="h2">Experiências</h2>
+					<div class="heading-line"></div>
+					<p class="main-para">Um pouco da minha trejatória academica e profissional.</p>
+				</div>	
+				<!-- start timeline -->
+				<div class="timeline wow fadeIn" data-wow-duration="0.5s" data-wow-offset="200">
+					<!-- Event No. 1 -->
+					<div class="timeline-block clearfix wow fadeInLeft" data-wow-duration="0.5s" data-wow-offset="200">
+						<div class="icon">
+							<i class="ion-briefcase"></i>
+						</div>
+						<div class="content left round-corners">
+							<h3>MINERVA FOODS - Carteira De Vendedores</h3>
+							<span class="duration">( Nov 2016 : Fev 2017 )</span>
+							<span class="job-title"> Analista de Sistemas - HQS Plus</span>
+							<p align="justify">
+								Módulo que permite o distribuir o os clientes atendidos dentro da hierarquia da empresa.
+							</p>
+							<p align="justify">
+								<b>Tecnologias:</b> .NET, DDD, ASP.NET WEB MVC, Entity Framework, Dapper, SQL Server, AutoMapper, Jquery, Bootstrap, DataTables, Simple Injector, ASP.NET Identity.
+							</p>
+						</div>
+					</div>
+					<!-- Event No. 2 -->
+					<div class="timeline-block clearfix wow fadeInRight" data-wow-duration="0.5s" data-wow-offset="200">
+						<div class="icon">
+							<i class="ion-briefcase"></i>
+						</div>
+						<div class="content right round-corners">
+							<h3>SCHNEIDER ELECTRIC - SINCO</h3>
+							<span class="duration">( Jun 2016 : Nov 2016 )</span>
+							<span class="job-title"> Analista de Sistemas - HQS Plus</span>
+							<p align="justify">
+								Sistema que permite a integração dos dados da empresa no Brasil com uma nuvem que centraliza todos os dados da empresa. 
+								O sistema envia e recebe arquivos XMLs de diferentes formatos e permite emissão de relatórios em cima desses dados.
+							</p>
+							<p align="justify">
+								<b>Tecnologias:</b> .NET, DDD, ASP.NET WEB MVC, Entity Framework, Dapper, SQL Server, AutoMapper, Jquery, Bootstrap, DataTables, Simple Injector, ASP.NET Identity.
+							</p>
+						</div>
+					</div>
+					<!-- Event No. 3 -->
+					<div class="timeline-block clearfix wow fadeInLeft" data-wow-duration="0.5s" data-wow-offset="200">
+						<div class="icon">
+							<i class="ion-briefcase"></i>
+						</div>
+						<div class="content left round-corners">
+							<h3>SEBRAE - AGENDA</h3>
+							<span class="duration">( Mar 2016 : Mai 2016 )</span>
+							<span class="job-title"> Analista de Sistemas - Stefanini IT Solutions</span>
+							<p align="justify">
+								Módulo responsável pelo agendamento dos cursos e palestras do SEBRAE pelo Brasil.
+							</p>
+							<p align="justify">
+								<b>Tecnologias:</b> .NET, DDD, ASP.NET WEB MVC, ASP.NET WEB API, Entity Framework, Dapper, SQL Server, AutoMapper, Jquery, Bootstrap, DataTables, Ninject, ASP.NET Identity.
+							</p>
+						</div>
+					</div>
+					<!-- Event No. 4 -->
+					<div class="timeline-block clearfix wow fadeInRight" data-wow-duration="0.5s" data-wow-offset="200">
+						<div class="icon">
+							<i class="ion-briefcase"></i>
+						</div>
+						<div class="content right round-corners">
+							<h3>SENAC - POLOS</h3>
+							<span class="duration">( Jan 2016 : Mar 2016 )</span>
+							<span class="job-title"> Analista de Sistemas - Stefanini IT Solutions</span>
+							<p align="justify">
+								Módulo responsável pela genrência dos cursos ofertados pelo SENAC em todo Brasil. 
+								O sistema tem a responsabilidade de controlar desde de o cadastro dos cursos até a presença dos alunos. 
+								Foi desenvolvido usando serviços ASP.NET WEB API que são consumidos na camada WEB que foi feita usando Angular JS.
+							</p>
+							<p align="justify">
+								<b>Tecnologias:</b> .NET, ASP.NET WEB API, Entity Framework, Dapper, SQL Server, AutoMapper, Jquery, Bootstrap, Angular JS, Simple Injector, ASP.NET Identity, ASP.NET SignalR.
+							</p>
+						</div>
+					</div>
+
+					<!-- Event No. 5 -->
+					<div class="timeline-block clearfix wow fadeInLeft" data-wow-duration="0.5s" data-wow-offset="200">
+						<div class="icon">
+							<i class="ion-briefcase"></i>
+						</div>
+						<div class="content left round-corners">
+							<h3>SEBRAE - TOP 100</h3>
+							<span class="duration">( Jun 2015 – Dez 2015 )</span>
+							<span class="job-title"> Analista de Sistemas - Stefanini IT Solutions</span>
+							<p align="justify">
+								Sistema desenvolvido para gerênciar o concurso que premia os 100 melhores artesões do Brasil. 
+								O projeto foi todo desenvolvido com uma equipe remota com membros em Juiz de Fora - MG, Belo Horizonte - MG, Brasília - DF e Porto Alegre - RS. 
+								A arquitetura inovadora para época, foi composta com serviços desenvolvidos em ASP.NET API que eram consumidos na camada WEB que foi desenvolvida toda em TypeScript.
+							</p>
+							<p align="justify">
+								<b>Tecnologias:</b> .NET, ASP.NET WEB API, Entity Framework, SQL Server, AutoMapper, Jquery, Bootstrap, TypeScript, UnityInjector, ASP.NET Identity, EPPlus.
+							</p>
+						</div>
+					</div>
+
+					<!-- Event No. 6 -->
+					<div class="timeline-block clearfix wow fadeInRight" data-wow-duration="0.5s" data-wow-offset="200">
+						<div class="icon">
+							<i class="ion-briefcase"></i>
+						</div>
+						<div class="content right round-corners">
+							<h3>IEMA - Sistema da Câmara de Compensação Ambiental</h3>
+							<span class="duration">( Mai 2015 : Jun 2015 )</span>
+							<span class="job-title"> Analista de Sistemas - Stefanini IT Solutions</span>
+							<p align="justify">
+								Módulo de gestão dos contratos de licenciamento de compensação ambiental.
+							</p>
+							<p align="justify">
+								<b>Tecnologias:</b> .NET, Entity Framework, MySQL, WCF, AutoMapper, Jquery, Bootstrap, Razor, DataTables, Google Maps API.
+							</p>
+						</div>
+					</div>
+
+					<!-- Event No. 7 -->
+					<div class="timeline-block clearfix wow fadeInLeft" data-wow-duration="0.5s" data-wow-offset="200">
+						<div class="icon">
+							<i class="ion-briefcase"></i>
+						</div>
+						<div class="content left round-corners">
+							<h3>IEMA - SISFROTA</h3>
+							<span class="duration">( Mar 2015 : Abr 2015 )</span>
+							<span class="job-title"> Analista de Sistemas - Stefanini IT Solutions</span>
+							<p align="justify">
+								Módulo para gerenciamento da frota de veículos do instituto. 
+								O sistema tem um serviço que cálcula a otimização das rotas com base nos dados inseridos no sistema.
+							</p>
+							<p align="justify">
+								<b>Tecnologias:</b> .NET, Entity Framework, MySQL, WCF, AutoMapper, Jquery, Bootstrap, Razor, DataTables, Google Maps API.
+							</p>
+						</div>
+					</div>
+
+					<!-- Event No. 8 -->
+					<div class="timeline-block clearfix wow fadeInRight" data-wow-duration="0.5s" data-wow-offset="200">
+						<div class="icon">
+							<i class="ion-briefcase"></i>
+						</div>
+						<div class="content right round-corners">
+							<h3>IEMA - SISUC</h3>
+							<span class="duration">( Fev 2015 – Abr 2015 )</span>
+							<span class="job-title"> Analista de Sistemas - Stefanini IT Solutions</span>
+							<p align="justify">
+								Módulo que permite gerenciar as Unidades de Conservação do instituto. Uma das principais funções é a administração do parque florestal e do controle de visitantes a este parque.
+							</p>
+							<p align="justify">
+								<b>Tecnologias:</b>  .NET, Entity Framework, MySQL, WCF, AutoMapper, Jquery, Bootstrap, Razor, DataTables, Google Maps API.
+							</p>
+						</div>
+					</div>
+
+					<!-- Event No. 9 -->
+					<div class="timeline-block clearfix wow fadeInLeft" data-wow-duration="0.5s" data-wow-offset="200">
+						<div class="icon">
+							<i class="ion-briefcase"></i>
+						</div>
+						<div class="content left round-corners">
+							<h3>IEMA - SISFAUNA</h3>
+							<span class="duration">( Mar 2015 : Abr 2015 )</span>
+							<span class="job-title"> Analista de Sistemas - Stefanini IT Solutions</span>
+							<p align="justify">
+								Módulo para registro de espécies e animais recebidos pelo instituto. 
+								O sistema tem integração com a Google Maps API que permite aos pesquisadores identificarem a geolocalização dos animais.
+							</p>
+							<p align="justify">
+								<b>Tecnologias:</b> .NET, Entity Framework, MySQL, WCF, Jquery, Bootstrap, Razor, DataTables, Google Maps API.
+							</p>
+						</div>
+					</div>
+
+					<!-- Event No. 10 -->
+					<div class="timeline-block clearfix wow fadeInRight" data-wow-duration="0.5s" data-wow-offset="200">
+						<div class="icon">
+							<i class="ion-briefcase"></i>
+						</div>
+						<div class="content right round-corners">
+							<h3>FIOTEC - SISANF</h3>
+							<span class="duration">( Nov 2014 : Jan 2015 )</span>
+							<span class="job-title"> Analista de Sistemas - Stefanini IT Solutions</span>
+							<p align="justify">
+								Módulo que para permitir o controle de emissão de Notas Fiscais por Centro de Custo e integração desses dados com outros sistemas. 
+								Todos os relatórios do sistemas eram exportados em Excel.
+							</p>
+							<p align="justify">
+								<b>Tecnologias:</b> .NET, Entity Framework, SQL Server, EPPlus, Jquery, Bootstrap, Razor, DataTables.
+							</p>
+						</div>
+					</div>
+
+					<!-- Event No. 11 -->
+					<div class="timeline-block clearfix wow fadeInLeft" data-wow-duration="0.5s" data-wow-offset="200">
+						<div class="icon">
+							<i class="ion-briefcase"></i>
+						</div>
+						<div class="content left round-corners">
+							<h3>FIOTEC - Sistema de Avaliação de Desempenho</h3>
+							<span class="duration">( Jul 2014 : Set 2014 )</span>
+							<span class="job-title"> Analista de Sistemas - Stefanini IT Solutions</span>
+							<p align="justify">
+								Módulo onde os gestores podiam aferir o desempenho, envolvimento e satisfação dos funcionários integrados aos projetos internos da FIOTEC.
+							</p>
+							<p align="justify">
+								<b>Tecnologias:</b> .NET, EntityFramework, Sql Server, Jquery, Bootstrap, Razor, DataTables.
+							</p>
+						</div>
+					</div>
+
+				</div> <!-- End Timeline -->
+			</div>
+		</div>
+		<!-- End Experience Section -->
+
+		<!-- Start Portfolio Section -->
+
+		<!-- End Portfolio Section -->
+
+		<!-- Start Testmonials Section -->
+		<div class="testmonials center" id="testmonials">
+			<div class="overlay"></div>
+			<div class="pattern"></div>
+			<div class="container">
+				<div class="test-owl">
+					<!-- Clinent No.1 -->
+					<div class="client">
+						<h3>- Kenny John -</h3><span>UI designer</span>
+						<div class="stars">
+							<span class="ion-android-star"></span>
+							<span class="ion-android-star"></span>
+							<span class="ion-android-star"></span>
+							<span class="ion-android-star"></span>
+							<span class="ion-android-star-half"></span>
+						</div>
+						<div class="opinion">
+							<i class="ion-quote"></i>
+							<p>Professionally expedite clicks-and-mortar methods of empowerment through excellent convergence. Efficiently strategize user friendly e-commerce before technically sound interfaces. Professionally harness one-to-one outsourcing whereas future-proof.</p>
+							<i class="ion-quote reversed"></i>
+						</div>
+					</div>
+					<!-- Clinent No.2 -->
+					<div class="client">
+						<h3>- Will hans -</h3><span>Ux designer</span>
+						<div class="stars">
+							<span class="ion-android-star"></span>
+							<span class="ion-android-star"></span>
+							<span class="ion-android-star"></span>
+							<span class="ion-android-star"></span>
+							<span class="ion-android-star-half"></span>
+						</div>
+						<div class="opinion">
+							<i class="ion-quote"></i>
+							<p>Assertively innovate technically sound process improvements with best-of-breed users. Seamlessly matrix dynamic processes rather than multimedia based scenarios. Seamlessly myocardinate front-end e-commerce vis-a-vis state of the art core competencies. Energistically create intermandated models.</p>
+							<i class="ion-quote reversed"></i>
+						</div>
+					</div>
+					<!-- Clinent No.3 -->
+					<div class="client">
+						<h3>- william hannah -</h3><span>visual designer</span>
+						<div class="stars">
+							<span class="ion-android-star"></span>
+							<span class="ion-android-star"></span>
+							<span class="ion-android-star"></span>
+							<span class="ion-android-star"></span>
+						</div>
+						<div class="opinion">
+							<i class="ion-quote"></i>
+							<p>Globally integrate resource maximizing information through economically sound results. Enthusiastically generate functionalized applications rather than quality imperatives. Monotonectally deploy integrated products.</p>
+							<i class="ion-quote reversed"></i>
+						</div>
+					</div>
+					<!-- Clinent No.4 -->
+					<div class="client">
+						<h3>- Adams kidman -</h3><span>web developer</span>
+						<div class="stars">
+							<span class="ion-android-star"></span>
+							<span class="ion-android-star"></span>
+							<span class="ion-android-star"></span>
+							<span class="ion-android-star"></span>
+							<span class="ion-android-star"></span>
+						</div>
+						<div class="opinion">
+							<i class="ion-quote"></i>
+							<p>Compellingly evolve future-proof total linkage via team driven information. Authoritatively maximize B2C paradigms rather than diverse channels. Dynamically pontificate B2C solutions whereas enterprise human capital. Interactively incentivize client-focused e-services.</p>
+							<i class="ion-quote reversed"></i>
+						</div>
+					</div>
+					<!-- Clinent No.5 -->
+					<div class="client">
+						<h3>- Jessie J -</h3><span>ui / ux designer</span>
+						<div class="stars">
+							<span class="ion-android-star"></span>
+							<span class="ion-android-star"></span>
+							<span class="ion-android-star"></span>
+							<span class="ion-android-star"></span>
+						</div>
+						<div class="opinion">
+							<i class="ion-quote"></i>
+							<p>Credibly aggregate low-risk high-yield opportunities after e-business expertise. Distinctively brand front-end sources with bricks-and-clicks supply chains. Rapidiously engineer ubiquitous e-commerce rather than virtual process.</p>
+							<i class="ion-quote reversed"></i>
+						</div>
+					</div>					
+				</div>
+			</div>
+		</div>
+		<!-- End Testmonials Section -->
+
+		<!-- Start Contact Section -->
+		<div class="contact center" id="contact-me">
+			<div class="container">
+				<!-- Title -->
+				<div class="title wow fadeInUp" data-wow-duration="0.5s" data-wow-offset="200">
+					<h2 class="h2">Contatos</h2>
+					<div class="heading-line"></div>
+				</div>
+				<div class="row form-wrapper">
+					<div class="col-md-8 col-md-offset-2 wow fadeInUp" data-wow-duration="0.5s" data-wow-offset="200">
+						<!-- Contact-Me Form -->
+						<form data-toggle="validator" role="form" id="contact-form">
+							<div class="form-group has-feedback">
+								<input type="text" name="name" id="name" class="form-control" data-error="Please, Enter Your Name." required>
+								<label for="name">Seu Nome</label>
+								<span class="help-block with-errors"></span>
+							</div>
+							<div class="form-group has-feedback">
+								<input type="email" name="mail" id="mail" class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" data-error="Your E-mail isn't correct" required>
+								<label for="mail">Seu E-mail</label>
+								<span class="help-block with-errors"></span>
+							</div>
+							<div class="form-group has-feedback">
+								<textarea name="message" id="message" class="form-control" data-error="Please, Type Your Message" required></textarea>
+								<label for="message">Sua Mensagem Aqui</label>
+								<span class="help-block with-errors"></span>
+							</div>
+							<div class="submit-container">
+								<button type="submit" class="btn submit-btn">Enviar Sua Mensagem</button>
+							</div>
+							<p class="form-response"></p>
+						</form> <!-- End Form -->
+					</div>
+				</div>
+				<!-- Contact Details -->
+				<div class="row contact-info">
+					<div class="col-md-6 col-sm-6 col-xs-12 info">
+						<i class="ion-ios-telephone center"></i>
+						<div class="info-content">
+							<h3>Telefone</h3>
+							<span>( 32 ) 99144-7717</span>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-12 info">
+						<i class="ion-email center"></i>
+						<div class="info-content">
+							<h3>E-mail</h3>
+							<span>diegobertelli.ti@gmail.com</span>
+						</div>
+					</div>
+					<!-- 
+						<div class="col-md-3 col-sm-6 col-xs-12 info">
+							<i class="ion-android-home center"></i>
+							<div class="info-content">
+								<h3>Visit me</h3>
+								<span>Street 227, Ismailia,</span><span>Egypt</span>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 info">
+							<i class="ion-ios-clock center"></i>
+							<div class="info-content">
+								<h3>Work time</h3>
+								<span>Sat - Wed : 07.00 - 16.00 </span>
+								<span>Thursday : 08.00 - 14.00 </span>
+							</div>
+						</div>
+					-->
+				</div>				
+			</div>
+			<!-- Google Map -->
+			<div id="map"></div>
+		</div>
+		<!-- End Contact Section -->
+
+		<!-- Start Partners Section -->
+
+		<!-- End Partners Section -->
+
+		<!-- Start Quote Section -->
+		<!-- <div class="quote">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="qoute-wrapper">
+					<p class="words"><span class="quote-mark open">"</span>Even if you are on the right track, you will get run over if you just set there.<span class="quote-mark end">"</span></p>
+					<p class="author">- Will Rogers -</p>
+				</div>
+			</div>
+		</div> -->
+		<!-- End Quote Section -->
+
+		<!-- Start Footer Section -->
+		<div class="footer center">
+			<div class="container">
+				<div class="row">
+					<div class="follow-me">Siga-me</div>
+					<div class="col-md-12 col-xs-12 links">
+						<!-- Social links -->
+						<div class="icon-wrapper center">
+							<a href="https://www.facebook.com/diego.bertelli.73" target="_blank" class="icon fb ion-social-facebook"></a>
+							<a href="#" class="icon tw ion-social-twitter"></a>
+							<a href="https://github.com/bertellicode" target="_blank" class="icon gh ion-social-github"></a>
+							<a href="https://plus.google.com/u/0/115464200882803491823" target="_blank" class="icon gp ion-social-googleplus"></a>
+							<a href="https://www.linkedin.com/in/diego-bertelli-3b86aa140/" target="_blank" class="icon li ion-social-linkedin"></a>
+							<a href="#" class="icon pin ion-social-pinterest"></a>
+						</div>
+					</div>
+					<div class="col-md12 col-xs-12 copyright">
+						<h6>&copy; Marqa 2016 All RightsReserved. Designed by Ahmed Beheiry</h6>
+					</div>
+				</div>	
+			</div>
+		</div>
+
+		<!-- End Footer Section -->			
+
+		<!-- Start To Top button -->
+		<div class="back-to-top center">
+			<i class="ion-android-navigate"></i>
+		</div>
+		<!-- End To Top button -->	
+
+		<!-- Start scroll percentage -->
+		<div id="scroll"></div>
+		<!-- End scroll percentage -->		
+		
+
+
+		<!-- Including jQuery file -->
+		<script src="js/jquery-1.12.1.min.js"></script>
+		<!-- Including jQuery.appear file -->
+		<script src="js/jquery.appear.js"></script>
+		<!-- Bootstrap js file -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- easy pie chart -->
+		<script src="js/jquery.easypiechart.min.js"></script>
+		<!-- NiceScroll plugin -->
+		<script src="js/jquery.nicescroll.min.js"></script>
+		<!-- animate numbers plugin -->
+		<script src="js/jquery.animatenumber.min.js"></script>
+		<!-- Horizontal bar chart -->
+		<script src="js/bars.js"></script>
+		<!-- mixitup plugin -->
+		<script src="js/jquery.mixitup.min.js"></script>
+		<!-- animated background header -->
+		<script src="js/tweenlite.min.js"></script>
+		<!-- magnific popup js file -->
+		<script src="js/magnific-popup.js"></script>
+		<!-- form validation file -->
+		<script src="js/validator.min.js"></script>
+		<!-- Owl carousel js file -->
+		<script src="js/owl.carousel.min.js"></script>
+		<!-- Google Map -->
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJOx2cEs3x3dTSubqABijclN_3uEmL7f8"></script>
+		<!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script> -->
+		<!-- Custom file  -->
+		<script src="js/plugins.js"></script>
+		<!-- Wow.js file -->
+		<script src="js/wow.min.js"></script>
+		<script>
+			new WOW().init();
+		</script>
+	</body>
+</noscript>
+<div style="text-align: center;"><div style="position:relative; top:0; margin-right:auto;margin-left:auto; z-index:99999">
+
+</div></div>
+</html>
