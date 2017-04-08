@@ -27,7 +27,7 @@ $(document).ready(function() {
     // Adjusting the top nav showing the top nav when scrolling >= 600 //
     $(window).scroll(function() {
         $("#top-nav, #menu").addClass("transition");
-        if ($(this).scrollTop() >= 600) {
+        if ($(this).scrollTop() >= 600 && $(this).width() > 767) {
             $("#top-nav, #menu").addClass("shown");
         } else {
             $("#top-nav, #menu").removeClass("shown");

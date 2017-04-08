@@ -1488,6 +1488,9 @@ a.selected-item:before, .side-menu a:hover:before {
 		margin: 0 auto;
 	}
  	/* End portfolio section */
+
+	.menu span.bar { background: #808080; }
+
 }
 
 /* Smart phones and Tablets */
@@ -1499,6 +1502,9 @@ a.selected-item:before, .side-menu a:hover:before {
 	/* Start portfolio section */
 	.portfolio .controls button {margin-right: 10px;}
 	/* End Portfolio section */
+
+	.menu span.bar { background: #808080; }
+
 }
 
 
