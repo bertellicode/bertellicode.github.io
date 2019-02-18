@@ -121,36 +121,6 @@ $(document).ready(function() {
             var name = $("#name").val(),
                 mail = $("#mail").val(),
                 message = $("#message").val();
-            // Ajax    
-            // $.ajax({
-                // type: "POST",
-                // url: "http://formspree.io/diegobertelli.ti@gmail.com",
-                // data: {
-
-                    // name: name,
-
-                    // phone: "",
-
-                    // email: mail,
-
-                    // message: message
-
-                // },
-				// dataType: "json",
-                // beforeSend: function(text) {
-                    // $(".submit-btn").html("Sending...");
-                    // $(".form-response").fadeOut(500).text("");
-                // },
-                // success: function (text) {
-                    // if(text == "success") {
-                        // $("#contact-form")[0].reset();
-                        // $(".form-response").text("Obrigado! Sua mensagem foi enviada.").fadeIn(1000);
-                        // $(".submit-btn").html("Enviar mensagem");
-                    // } else {
-                        // $(".form-response").text(text).fadeIn(1000);
-                    // }
-                // }
-            // });
 			
 			 $.ajax({
                 url: "//formspree.io/diegobertelli.ti@gmail.com",
@@ -182,6 +152,7 @@ $(document).ready(function() {
 		
 			
         }
+		
     // Moving placeholder on focus in contact-me section //
     $(".contact .form-control").focusout(function() {
         var textValue = $(this).val();
@@ -198,7 +169,7 @@ $(document).ready(function() {
             number: 6853
         }, 2200);
         $("#number_2").animateNumber({
-            number: 11
+            number: 15
         }, 2200);
         $("#number_3").animateNumber({
             number: 345
